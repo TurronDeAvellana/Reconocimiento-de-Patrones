@@ -22,3 +22,11 @@ mostrar(derivar(expr6, Atomo('x'))) // ((x ^ 3.0) * (((1.0 * 3.0) / x) + (0.0 * 
 mostrar(derivar(expr2, Atomo('x'))) // ((1.0 * x) + (x * 1.0))
 mostrar(derivar(expr2, Atomo('y'))) // ((0.0 * x) + (x * 0.0))
 mostrar(derivar(Suma(Atomo('k'), Prod(Numero(3.0), Atomo('x'))), Atomo('x')))
+
+val e1 = Resta(Prod(Atomo('x'),Atomo('x')), Numero(2.0))
+val e2 = Resta(Prod(Atomo('x'), Atomo('x')), Numero(4.0))
+val e3 = Suma(Resta(Prod(Atomo('x'),Atomo('x')),Numero(4.0)), Prod(Numero(3.0), Atomo('x')))
+
+raizNewton(e1,Atomo('x'), 2.0, buenaAprox)
+raizNewton(e2,Atomo('x'), 2.0, buenaAprox)
+raizNewton(e3,Atomo('x'), 2.0, buenaAprox)

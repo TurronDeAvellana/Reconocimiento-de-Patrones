@@ -134,13 +134,23 @@ package object Newton {
 
   //funcion raizNewton
 
-/*
-  def raizNewton(f: Expr, a:Atomo, x0:Double, ba:(Expr,Atomo,Double) => Boolean): Double={
 
+  def raizNewton(f: Expr, a: Atomo, x0: Double, ba: (Expr, Atomo, Double) => Boolean): Double = {
+    var xn = x0 // Valor inicial
+    var fxn = evaluar(f, a, xn) // Valor de la función en x0
+
+    // Iterar mientras f(xn) no esté suficientemente cerca de cero
+    while (!ba(f, a, xn)) {
+      val dfxn = evaluar(derivar(f, a), a, xn) // Derivada de la función en xn
+      xn = xn - fxn / dfxn // Actualizar xn utilizando el método de Newton
+      fxn = evaluar(f, a, xn) // Actualizar el valor de la función en xn
+    }
+
+    xn // Retornar el valor de xn, que es una buena aproximación de la raíz
   }
 
 
- */
+
 
 
 
