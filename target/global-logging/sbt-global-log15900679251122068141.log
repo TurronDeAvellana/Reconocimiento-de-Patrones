@@ -1,0 +1,141 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(early(addPluginSbtFile="""C:\Users\Andres\AppData\Local\Temp\idea.sbt"""), None, None)
+[debug] > Exec(addPluginSbtFile="""C:\Users\Andres\AppData\Local\Temp\idea.sbt""", None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.9.7 (Oracle Corporation Java 21.0.1)
+[debug]       Load.loadUnit: plugins took 216.336799ms
+[debug]       Load.loadUnit: defsScala took 0.530801ms
+[debug] [Loading] Scanning directory C:\Users\Andres\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\Andres\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 30.927601 ms
+[debug]           Load.resolveProject(global-plugins) took 49.6655ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\Andres\.sbt\1.0\plugins, plugins: List(<none>))) took 111.8516ms
+[debug] [Loading] Done in C:\Users\Andres\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 166.6885ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.229501ms
+[debug]     Load.loadUnit(file:/C:/Users/Andres/.sbt/1.0/plugins/, ...) took 398.172301ms
+[debug]   Load.apply: load took 732.0096ms
+[debug]   Load.apply: resolveProjects took 13.379201ms
+[debug]   Load.apply: finalTransforms took 138.9579ms
+[debug]   Load.apply: config.delegates took 19.626199ms
+[debug]   Load.apply: Def.make(settings)... took 774.312801ms
+[debug]   Load.apply: structureIndex took 198.487499ms
+[debug]   Load.apply: mkStreams took 2.6101ms
+[info] loading global plugins from C:\Users\Andres\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 4183.8666ms
+[debug]           Load.loadUnit: plugins took 47.4674ms
+[debug]           Load.loadUnit: defsScala took 0.006201ms
+[debug] [Loading] Scanning directory C:\Users\Andres\Documents\U\5to\Funcional y concurrente\Reconocimiento de Patrones final\Taller 3 Reconocimiento de Patrones\project
+[debug]             Load.loadUnit: mkEval took 9.9969ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\Andres\Documents\U\5to\Funcional y concurrente\Reconocimiento de Patrones final\Taller 3 Reconocimiento de Patrones\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 3.576001 ms
+[info] loading settings for project taller-3-reconocimiento-de-patrones-build from idea.sbt ...
+[debug]               Load.resolveProject(taller-3-reconocimiento-de-patrones-build) took 9.963299ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id taller-3-reconocimiento-de-patrones-build, base: C:\Users\Andres\Documents\U\5to\Funcional y concurrente\Reconocimiento de Patrones final\Taller 3 Reconocimiento de Patrones\project, plugins: List(<none>))) took 15.374499ms
+[debug] [Loading] Done in C:\Users\Andres\Documents\U\5to\Funcional y concurrente\Reconocimiento de Patrones final\Taller 3 Reconocimiento de Patrones\project, returning: (taller-3-reconocimiento-de-patrones-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 5351.247ms
+[debug]           Load.loadUnit: cleanEvalClasses took 11.733ms
+[debug]         Load.loadUnit(file:/C:/Users/Andres/Documents/U/5to/Funcional%20y%20concurrente/Reconocimiento%20de%20Patrones%20final/Taller%203%20Reconocimiento%20de%20Patrones/project/, ...) took 5412.4253ms
+[debug]       Load.apply: load took 5416.0174ms
+[debug]       Load.apply: resolveProjects took 0.167501ms
+[debug]       Load.apply: finalTransforms took 18.3682ms
+[debug]       Load.apply: config.delegates took 0.678899ms
+[debug]       Load.apply: Def.make(settings)... took 149.696399ms
+[debug]       Load.apply: structureIndex took 54.2566ms
+[debug]       Load.apply: mkStreams took 0.0035ms
+[info] loading project definition from C:\Users\Andres\Documents\U\5to\Funcional y concurrente\Reconocimiento de Patrones final\Taller 3 Reconocimiento de Patrones\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 7859.687301ms
+[debug]     Load.loadUnit: defsScala took 0.0038ms
+[debug] [Loading] Scanning directory C:\Users\Andres\Documents\U\5to\Funcional y concurrente\Reconocimiento de Patrones final\Taller 3 Reconocimiento de Patrones
+[debug]       Load.loadUnit: mkEval took 0.400101ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin)))
+[debug] Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 2.8957 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 44.076601ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: C:\Users\Andres\Documents\U\5to\Funcional y concurrente\Reconocimiento de Patrones final\Taller 3 Reconocimiento de Patrones, plugins: List(<none>))) took 49.222599ms
+[debug] [Loading] Done in C:\Users\Andres\Documents\U\5to\Funcional y concurrente\Reconocimiento de Patrones final\Taller 3 Reconocimiento de Patrones, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 1746.503801ms
+[debug]     Load.loadUnit: cleanEvalClasses took 38.8094ms
+[debug]   Load.loadUnit(file:/C:/Users/Andres/Documents/U/5to/Funcional%20y%20concurrente/Reconocimiento%20de%20Patrones%20final/Taller%203%20Reconocimiento%20de%20Patrones/, ...) took 9647.500599ms
+[debug] Load.apply: load took 9651.897599ms
+[debug] Load.apply: resolveProjects took 0.198901ms
+[debug] Load.apply: finalTransforms took 45.8481ms
+[debug] Load.apply: config.delegates took 0.4276ms
+[debug] Load.apply: Def.make(settings)... took 113.472ms
+[debug] Load.apply: structureIndex took 59.4345ms
+[debug] Load.apply: mkStreams took 0.002901ms
+[info] set current project to Taller 3 Reconocimiento de Patrones (in build file:/C:/Users/Andres/Documents/U/5to/Funcional%20y%20concurrente/Reconocimiento%20de%20Patrones%20final/Taller%203%20Reconocimiento%20de%20Patrones/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(; set ideaPort in Global := 57577 ; idea-shell, None, None)
+[debug] > Exec(set ideaPort in Global := 57577, None, None)
+[info] Defining Global / ideaPort
+[info] The new value will be used by Compile / compile, Test / compile
+[debug] Defining 
+[debug] 	Global / ideaPort
+[debug] 
+[debug] The new value will be used by 
+[debug] 	Compile / compile
+[debug] 	Test / compile
+[info] Reapplying settings...
+[info] set current project to Taller 3 Reconocimiento de Patrones (in build file:/C:/Users/Andres/Documents/U/5to/Funcional%20y%20concurrente/Reconocimiento%20de%20Patrones%20final/Taller%203%20Reconocimiento%20de%20Patrones/)
+[debug] > Exec(idea-shell, None, None)
