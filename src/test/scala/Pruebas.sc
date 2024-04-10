@@ -40,7 +40,14 @@ mostrar(derivar(expr10,Atomo('x'))) // ((((0.0 - 0.0) * (3.0 + 2.0)) - ((3.0 - 2
 val e1 = Resta(Prod(Atomo('x'),Atomo('x')), Numero(2.0))
 val e2 = Resta(Prod(Atomo('x'), Atomo('x')), Numero(4.0))
 val e3 = Suma(Resta(Prod(Atomo('x'),Atomo('x')),Numero(4.0)), Prod(Numero(3.0), Atomo('x')))
+val e4 = Prod(Suma(Atomo('x'),Numero(3)),Resta(Prod(Numero(2),Atomo('x')),Numero(1)))
+val e5 = Resta(Div(Expo(Atomo('x'),Numero(2)),Numero(4)),Numero(1))
+val e6 = Prod(Suma(Prod(Atomo('x'),Atomo('x')),Resta(Numero(4),Numero(1))),Expo(Atomo('x'),Numero(2)))
 
-raizNewton(e1,Atomo('x'), 2.0, buenaAprox)
-raizNewton(e2,Atomo('x'), 2.0, buenaAprox)
-raizNewton(e3,Atomo('x'), 2.0, buenaAprox)
+raizNewton(e1,Atomo('x'), 2.0, buenaAprox)  //Esperado:  1.4142156862745099
+raizNewton(e2,Atomo('x'), 2.0, buenaAprox)//Esperado: 2.0
+raizNewton(e3,Atomo('x'), 2.0, buenaAprox)//Esperado:  1.0000029768726761
+raizNewton(e4,Atomo('x'), 2.0, buenaAprox)//Esperado: 1/2 = 0.5
+raizNewton(e5,Atomo('x'), 2.0, buenaAprox)//Esperado: 2 o -2
+raizNewton(e6,Atomo('x'), 2.0, buenaAprox)//Esperado:  0
+
