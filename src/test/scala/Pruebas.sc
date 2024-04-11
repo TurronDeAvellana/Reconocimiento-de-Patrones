@@ -34,6 +34,34 @@ mostrar(derivar(expr2, Atomo('y'))) // ((0.0 * x) + (x * 0.0))
 mostrar(derivar(expr8, Atomo('x'))) // (((((0.0 * 2.0) + (5.0 * 0.0)) * 3.0) - ((5.0 * 2.0) * 0.0)) / (3.0 ^ 2.0))
 mostrar(derivar(expr10,Atomo('x'))) // ((((0.0 - 0.0) * (3.0 + 2.0)) - ((3.0 - 2.0) * (0.0 + 0.0))) / ((3.0 + 2.0) ^ 2.0))
 
+//Casos de prueba Evaluar
+
+evaluar(Numero(5.0), Atomo('x'), 1.0)  //5.0
+evaluar(Atomo('x'), Atomo('x'), 5.0)//5.0
+evaluar(Suma(expr1, expr2), Atomo('x'), 5.0)//32.0
+evaluar(Prod(expr1, expr2), Atomo('x'), 5.0)//175.0
+evaluar(Resta(expr1, expr2), Atomo('x'), 5.0)//-18.0
+evaluar(Div(expr1, expr2), Atomo('x'), 5.0)//0.28
+evaluar(Expo(expr1, expr2), Atomo('x'), 5.0)//1.341068619663965E21
+evaluar(Logaritmo(expr1), Atomo('x'), 5.0)//1.341068619663965E21
+evaluar(Expo(expr1, Numero(0)), Atomo('x'),5.0)//1.0
+evaluar(Prod(Numero(2), Atomo('y')), Atomo('y'), 5.0)//10.0
+evaluar(Resta(Numero(10), Atomo('y')), Atomo('y'), 5.0)//5.0
+evaluar(Div(Numero(8), Numero(2)), Atomo('y'), 5.0)//4.0
+evaluar(Expo(Atomo('y'), Numero(4)), Atomo('y'), 5.0)//625.0
+evaluar(Logaritmo(Numero(100)), Atomo('y'), 5.0)//4.605170185988092
+
+
+
+//Casos de prueba Limpiar
+
+limpiar(derivar(Suma(Atomo('k'), Prod(Numero(3.0), Atomo('x'))), Atomo('x')))
+limpiar(derivar(Resta(Atomo('x'), Numero(2.0)), Atomo('y')))
+limpiar(derivar(Div(Atomo('x'), Numero(2.0)), Atomo('y')))
+limpiar(derivar(Expo(Atomo('x'), Numero(3.0)), Atomo('y')))
+limpiar(derivar(Logaritmo(Atomo('x')), Atomo('y')))
+limpiar(derivar(Suma(Atomo('k'), Numero(5.0)), Atomo('x')))
+limpiar(derivar(Prod(Atomo('k'), Numero(3.0)), Atomo('x')))
 
 //Pruebas raizNewton
 
